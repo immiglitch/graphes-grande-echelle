@@ -39,7 +39,7 @@ Présentation:
 make
 
 
-### Option A — compilation simple
+### Option B — compilation simple
 gcc -O2 -Wall -Wextra -o graphe main.c triplets.c matriceadj.c brin.c fifo.c heap.c
 
 ```bash
