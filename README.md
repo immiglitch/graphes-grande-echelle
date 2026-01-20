@@ -2,9 +2,6 @@
 
 Projet universitaire (UE **Algorithme Avancée**) : étude de l’impact des **structures de données** sur les performances (mémoire/temps) pour des graphes pondérés de grande taille (**> 10 000 nœuds**).
 
-Rapport: 'Rapport_AA.pdf'
-Présentation: 
-
 
 ## Objectifs
 - Comparer plusieurs représentations de graphe pour le passage à l’échelle :
@@ -41,5 +38,8 @@ make
 
 ### Option B — compilation simple
 gcc -O2 -Wall -Wextra -o graphe main.c triplets.c matriceadj.c brin.c fifo.c heap.c
+
+
+Rapport en latex dans Rapport_AA.pdf accompagné du slide de présentation de ma soutenance.
 
 ```bash
